@@ -1,0 +1,34 @@
+G8 Virtual Library
+Isaac Apgar
+November 19, 2026
+
+DRAFT ONLY. Do not submit as a final report until team work is integrated and the
+contribution record below has been checked against the final repository history.
+
+The project is a Java Swing application for maintaining an in-memory book catalog
+and local reader accounts. It supports title/author/ID search, new books, checkout,
+returns, and a maximum of five active loans per account. ArrayList collections
+store books and account names. A Book represents one copy, Library enforces the
+catalog and loan rules, and LibraryWindow presents the graphical interface.
+
+My preparation includes setting up the public repository and initial proposal,
+coordinating class assignments in Canvas, and preparing this implementation draft
+with OpenAI Codex. The draft contains all three implementation classes, tests,
+an executable JAR, and user documentation. The proposed class I will take
+responsibility for in the team division is LibraryWindow. That division is still
+awaiting team confirmation. The draft work is explicitly AI-assisted and is not
+attributed to other team members.
+
+Keren proposed a README status correction in pull request 1. No Java implementation
+from Keren or Drew has been integrated into this draft. Each teammate must still
+write and upload their own class according to the course requirements.
+
+Model validation: 29 checks cover normal checkout/returns, case-insensitive
+searches and identifiers, duplicate entries, empty required fields, unknown
+accounts/books, five-book limits, borrower-specific returns, and independent
+account counts. The running JAR was checked visually for launch, missing selection,
+checkout, return, author search, account creation, and book creation. Screenshots
+are saved in media. Final screenshots should be updated after team integration.
+
+Limitations: data is not saved between runs; account selection is not
+authentication; this is a local classroom demonstration, not a production service.

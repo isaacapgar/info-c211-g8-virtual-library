@@ -1,5 +1,2 @@
-*.class
 build/
-out/
-.idea/
-.vscode/
+*.class
